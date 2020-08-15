@@ -1,0 +1,22 @@
+{
+  "name": "bongo_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imtiaz101325/bongo_test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imtiaz101325/bongo_test/issues"
+  },
+  "homepage": "https://github.com/imtiaz101325/bongo_test#readme",
+  "devDependencies": {
+    "mocha": "^8.1.1"
+  }
+}
