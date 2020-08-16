@@ -1,6 +1,6 @@
 ## Solution to question #1
 
-A simple and a complex solution is provided in `anagram_simple.js` and `anagram_complex.js` respectively.
+A simple and a complex solution is provided in `anagram/anagram_simple.js` and `anagram/anagram_complex.js` respectively.
 
 ## Solution to question #2
 
