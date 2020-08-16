@@ -56,3 +56,5 @@ JavaScript does not have built in support for interfaces. The closest concept we
       const Plane = Vehicle({16, 850, true});
       const Bicycle = Vehicle({2, 1, false});
     ```
+
+## Solution to question #3
