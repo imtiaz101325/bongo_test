@@ -1,6 +1,18 @@
+# Frontend Test Answers
+
+This repository was contains answers to interview questions. A copy of the questions can be found in `./Bongo Frontend Code Test.pdf`.
+
+## Running the code
+
+The repository contains two project folders for the first and last questions. To run them we need have [Node.js](https://nodejs.org/en/) installed
+
+In each folder run `npm install` to install the dependencies.
+
 ## Solution to question #1
 
-A simple and a complex solution is provided in `anagram/anagram_simple.js` and `anagram/anagram_complex.js` respectively.
+A simple and a complex solution is provided in `./anagram/anagram_simple.js` and `./anagram/anagram_complex.js` respectively.
+
+Run `npm run test` to run the unit tests found in the `./anagram/test/` folder.
 
 ## Solution to question #2
 
@@ -58,3 +70,9 @@ JavaScript does not have built in support for interfaces. The closest concept we
     ```
 
 ## Solution to question #3
+
+A minimal video player has been implemented in `./video_player/src/Video.js`. To run the project use `npm start`.
+
+The player has been implemented in React.js using functional components and the very recently introduces hooks pattern. React is used for the view layer in the MVC design pattern.
+
+In browsers we normally interact with the `HTMLMediaElement` to display and manage media. So our components need to access and modify the properties on the DOM node. We are using the `useRef` hook to access the properties of the `video` tag inside our functional component instead of having to switch to a class components. This way, it is more easier to manage our reusable components and write unit tests.
